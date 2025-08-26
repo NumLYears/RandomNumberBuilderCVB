@@ -1,0 +1,9 @@
+//这里是全局配置
+
+#ifndef RANDOMNUMBERBUILDER_V3_SETTINGS_H
+#define RANDOMNUMBERBUILDER_V3_SETTINGS_H
+
+std::string
+
+
+#endif //RANDOMNUMBERBUILDER_V3_SETTINGS_H
