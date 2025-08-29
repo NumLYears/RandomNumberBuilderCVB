@@ -5,6 +5,9 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(RandomNumberBuilder_v3 main.cpp
         dictionary.cpp
-        dictionary.h
         Debug.h
-        Settings.h)
+        settings.h
+        Funcs.h
+        ansi_func.cpp
+        ansi_func.h
+)
