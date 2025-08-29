@@ -11,13 +11,13 @@
 
 using namespace std;
 
-static void printc(const char* s, int color) {
-    //彩色文本打印函数（参数为char）
-    HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(handle, FOREGROUND_INTENSITY | color);
-    printf(s);
-    SetConsoleTextAttribute(handle, FOREGROUND_INTENSITY | 7);
-}
+// static void printc(const char* s, int color) {
+//     //彩色文本打印函数（参数为char）
+//     HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+//     SetConsoleTextAttribute(handle, FOREGROUND_INTENSITY | color);
+//     printf(s);
+//     SetConsoleTextAttribute(handle, FOREGROUND_INTENSITY | 7);
+// }
 
 // ---- 彩色打印的颜色代号 ---------------------------------------------------------
 // |0 = 黑色|1 = 蓝色|2 = 绿色|3 = 浅绿色|4 = 红色|5 = 紫色|6 = 黄色|7 = 白色|8 = 灰色
